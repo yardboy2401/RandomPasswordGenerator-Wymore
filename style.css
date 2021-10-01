@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Overall page styling */
 html,
 body,
 .wrapper {
@@ -30,6 +31,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* Styling for password box on page */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -58,6 +60,7 @@ header {
   text-align: center;
 }
 
+/* sets styles for before/after button clicks */
 .card-footer::before {
   content: " ";
   display: block;
@@ -72,6 +75,7 @@ header {
   clear: both;
 }
 
+/* Styling for button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -97,6 +101,7 @@ button[disabled] {
   float: right;
 }
 
+/* Styling for password box */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +123,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* Media screen selectors to ensure page displays properly on all screen sizes */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
