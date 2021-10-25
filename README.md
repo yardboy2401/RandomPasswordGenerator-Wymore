@@ -34,6 +34,5 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
+![image](https://user-images.githubusercontent.com/85953688/138781576-dceb8164-289c-4c86-b6ee-60d33bee220c.png)
 
-
-![pwgeneratorscreenshot](./pwgeneratorscreenshot.png?raw=true "PW Generator Screenshot")
