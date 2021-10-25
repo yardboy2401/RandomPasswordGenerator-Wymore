@@ -42,7 +42,7 @@ function generatePassword() {
     alert('You must choose between 8 and 128 characters!');
   } else if (!useLowercase && !useUppercase && !useNumbers && !useSpecialCharacters) {
     alert('You must choose at least 1 option to include in password!');
-  } else if (useLowercase && useUppercase && useSpecialCharacters) {
+  } else if (useLowercase && useUppercase && useSpecialCharacters && useNumbers) {
     totalPasswordCharacters = lowercase.concat(uppercase, numbers, specialCharacters);
   } else if (useLowercase && useNumbers && useSpecialCharacters) {
     totalPasswordCharacters = lowercase.concat(numbers, specialCharacters);
@@ -50,14 +50,20 @@ function generatePassword() {
     totalPasswordCharacters = lowercase.concat(uppercase, specialCharacters);
   } else if (useLowercase && useUppercase && useNumbers) {
     totalPasswordCharacters = lowercase.concat(uppercase, numbers);
+  } else if (useUppercase && useNumbers && useSpecialCharacters) {
+    totalPasswordCharacters = uppercase.concat(numbers, specialCharacters);
   } else if (useUppercase && useLowercase) {
     totalPasswordCharacters = uppercase.concat(lowercase);
   } else if (useUppercase && useNumbers) {
     totalPasswordCharacters = uppercase.concat(numbers);
   } else if (useUppercase && useSpecialCharacters) {
-    totalPasswordCharacters = uppercase.concat(specialCharacters)
+    totalPasswordCharacters = uppercase.concat(specialCharacters);
   } else if (useLowercase && useNumbers) {
     totalPasswordCharacters = lowercase.concat(numbers);  
+  } else if (useSpecialCharacters && useNumbers) {
+    totalPasswordCharacters = numbers.concat(specialCharacters);
+  } else if (useLowercase && useNumbers) {
+    totalPasswordCharacters = lowercase.concat(numbers);
   } else if (useLowercase) {
     totalPasswordCharacters = lowercase;
   } else if (useUppercase) {
