@@ -5,12 +5,12 @@
 Task for this assignment is to create a password generator where the user can select a length between 8-128 characters. Outside this range should give an error. User can choose to include/not include uppercase characters, lowercase characters, numbers or special characters. Special characters info list can be found at https://owasp.org/www-community/password-special-characters from the OWASP Foundation.
 
 ## Languages Used
-- - - -
-- Bullet JS
+
+- JS
 - - - -
 ## Link to GitHub main project
 https://github.com/yardboy2401/week3-homework-wymore
-- - - -
+
 ## Link to Deployed Application
 https://yardboy2401.github.io/week3-homework-wymore/
 - - - - 
