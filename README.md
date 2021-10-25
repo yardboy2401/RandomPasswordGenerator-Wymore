@@ -1,38 +1,38 @@
-# 03 JavaScript: Password Generator
+# Week 3 Homework JavaScript: Password Generator
 
 ## Your Task
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+Task for this assignment is to create a password generator where the user can select a length between 8-128 characters. Outside this range should give an error. User can choose to include/not include uppercase characters, lowercase characters, numbers or special characters. Special characters info list can be found at https://owasp.org/www-community/password-special-characters from the OWASP Foundation.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
-
-## User Story
-
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
+##Languages Used
+- - - -
+- Bullet JS
+- - - -
+##Link to GitHub main project
+https://github.com/yardboy2401/week3-homework-wymore
+- - - -
+##Link to Deployed Application
+https://yardboy2401.github.io/week3-homework-wymore/
+- - - - 
+##Screenshots of Finished Product
+- - - -
+###Before Password Entered
 ![image](https://user-images.githubusercontent.com/85953688/138781576-dceb8164-289c-4c86-b6ee-60d33bee220c.png)
+###After Password Generated
+![image](https://user-images.githubusercontent.com/85953688/138783167-00f738b0-cfd2-4ce9-95d9-e74dafa85063.png)
+- - - -
+##Project Notes
+After initial submission of work I noticed that I forgot 3 test cases in the conditional statement for password generator combinations allowed. That should be fixed with final commit. Alerts will pop up if no allowed parameters are included in initial selection prompts. Also an alert will pop up if character range is outside 8-128 character length. These alerts force the user to begin the password generator again with new selections.
+
+##Contact Information
+- - - - 
+
+Github: @yardboy2401
+
+Email: yardboy2401@gmail.com
+
+- - - -
+```
+
+
 
