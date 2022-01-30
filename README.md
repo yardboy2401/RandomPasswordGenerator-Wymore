@@ -1,4 +1,4 @@
-# Week 3 Homework JavaScript: Password Generator
+# JavaScript: Password Generator-Wymore
 
 ## Your Task
 Task for this assignment is to create a password generator where the user can select a length between 8-128 characters. Outside this range should give an error. User can choose to include/not include uppercase characters, lowercase characters, numbers or special characters. Special characters info list can be found at https://owasp.org/www-community/password-special-characters from the OWASP Foundation.
