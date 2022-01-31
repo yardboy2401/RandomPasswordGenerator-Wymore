@@ -7,10 +7,10 @@ Task for this assignment is to create a password generator where the user can se
 - JS
 
 ## Link to GitHub main project
-https://github.com/yardboy2401/week3-homework-wymore
+https://github.com/yardboy2401/RandomPasswordGenerator-Wymore
 
 ## Link to Deployed Application
-https://yardboy2401.github.io/week3-homework-wymore/
+https://yardboy2401.github.io/RandomPasswordGenerator-Wymore/
 
 ## Screenshots of Finished Product
 ### Before Password Entered
